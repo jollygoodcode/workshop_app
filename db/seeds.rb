@@ -5,3 +5,23 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+workshops =
+  [
+    {
+      title: "Beginner Ruby on Rails",
+      description: "This is a Ruby on Rails class for those without any Ruby on Rails knowledge."
+    },
+    {
+      title: "Intermediate Ruby on Rails",
+      description: "This is a Ruby on Rails class for those with some Ruby on Rails knowledge."
+    },
+    {
+      title: "Advance Ruby on Rails",
+      description: "This is a Ruby on Rails class for those with plenty of Ruby on Rails knowledge."
+    }
+  ]
+
+workshops.each do |attrs|
+  Workshop.create!(attrs)
+end
