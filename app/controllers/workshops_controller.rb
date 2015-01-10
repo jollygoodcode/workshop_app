@@ -56,7 +56,7 @@ class WorkshopsController < ApplicationController
   def destroy
     @workshop.destroy
     respond_to do |format|
-      format.html { redirect_to workshops_url }
+      format.html { redirect_to workshops_url, notice: 'Workshop was successfully destroyed.' }
       format.json { head :no_content }
     end
   end

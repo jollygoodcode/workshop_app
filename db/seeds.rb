@@ -9,16 +9,16 @@
 workshops =
   [
     {
-      title: "Beginner Ruby on Rails",
-      description: "This is a Ruby on Rails class for those without any Ruby on Rails knowledge."
+      title: 'Beginner Ruby on Rails',
+      description: 'This is a Ruby on Rails class for those without any Ruby on Rails knowledge.'
     },
     {
-      title: "Intermediate Ruby on Rails",
-      description: "This is a Ruby on Rails class for those with some Ruby on Rails knowledge."
+      title: 'Intermediate Ruby on Rails',
+      description: 'This is a Ruby on Rails class for those with some Ruby on Rails knowledge.'
     },
     {
-      title: "Advance Ruby on Rails",
-      description: "This is a Ruby on Rails class for those with plenty of Ruby on Rails knowledge."
+      title: 'Advance Ruby on Rails',
+      description: 'This is a Ruby on Rails class for those with plenty of Ruby on Rails knowledge.'
     }
   ]
 

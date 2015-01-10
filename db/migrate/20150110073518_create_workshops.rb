@@ -4,7 +4,7 @@ class CreateWorkshops < ActiveRecord::Migration
       t.string :title
       t.text :description
 
-      t.timestamps
+      t.timestamps null: false
     end
   end
 end
