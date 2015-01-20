@@ -23,5 +23,5 @@ workshops =
   ]
 
 workshops.each do |attrs|
-  Workshop.create!(attrs)
+  Workshop.find_or_create_by!(attrs)
 end
